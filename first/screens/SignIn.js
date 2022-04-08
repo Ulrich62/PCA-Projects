@@ -103,14 +103,8 @@ export default function SignIn({ navigation }) {
             Forgot password?
           </Text>
         </View>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => navigation.navigate("Posts")}
-        >
-          <Text
-            style={{ fontWeight: "bold", color: "#fff", fontSize: 18 }}
-            onPress={onHandleLogin}
-          >
+        <TouchableOpacity style={styles.button} onPress={onHandleLogin}>
+          <Text style={{ fontWeight: "bold", color: "#fff", fontSize: 18 }}>
             Sign In
           </Text>
         </TouchableOpacity>
