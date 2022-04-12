@@ -60,6 +60,8 @@ export default function SignIn({ navigation }) {
         <View style={{ marginTop: 200 }}>
           <Text style={styles.title}>Sign In</Text>
           <Input
+            label="Password"
+            labelStyle={{ fontFamily: "Poppins" }}
             style={styles.input}
             placeholder="UserName"
             leftIcon={
@@ -74,6 +76,8 @@ export default function SignIn({ navigation }) {
             required
           />
           <Input
+            label="Password"
+            labelStyle={{ fontFamily: "Poppins" }}
             style={styles.input}
             placeholder="Password"
             leftIcon={
